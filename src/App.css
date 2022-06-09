@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.swiper {
+  margin: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 5rem;
+}
+.footer svg {
+  height: 5rem;
+  width: 5rem;
+  margin-left: 1rem;
+}
+.footer .chevron-rotate {
+  transform: rotate(180deg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.CarouselCard {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.CarouselCard .bodyType {
+  text-transform: uppercase;
+  color: #707070;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+.CarouselCard .model {
+  display: flex;
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+}
+.CarouselCard .model .modelName {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.CarouselCard .model .modelType {
+  color: #707070;
+}
+.CarouselCard .linksFooter {
+  color: steelblue;
+  text-transform: uppercase;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 5rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.CarouselCard .linksFooter .link {
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.CarouselCard .linksFooter .link:first-child {
+  margin-right: 0.5rem;
+}
+.CarouselCard .linksFooter .link svg {
+  height: 1.7rem;
+  width: 1.7rem;
+  margin: 0 1.2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */

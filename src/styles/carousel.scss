@@ -1,0 +1,19 @@
+.swiper{
+    margin: 50px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 5rem;
+    svg{
+        height: 5rem;
+        width: 5rem;
+        margin-left: 1rem;
+    }
+    .chevron-rotate{
+        transform: rotate(180deg);
+    }
+}
+

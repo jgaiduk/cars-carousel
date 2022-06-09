@@ -1,0 +1,54 @@
+$COLOR_GREY: #707070;
+$COLOR_BLUE: steelblue;
+
+.CarouselCard{
+    display: flex;
+    flex-direction: column;
+
+    .bodyType{
+        text-transform: uppercase;
+        color: $COLOR_GREY;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        opacity: 0.8;
+    }
+
+    .model{
+        display: flex;
+        margin-bottom: 2.5rem;
+        font-size: 2.5rem;
+        .modelName{
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        .modelType{
+            color: $COLOR_GREY;
+        }
+    }
+
+
+    .linksFooter{
+        color: $COLOR_BLUE;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        font-weight: 700;
+        font-size: 2rem;
+
+        .link{
+            margin-left: 0.5rem;
+            display: flex;
+            align-items: center;
+            &:first-child{
+                margin-right: 0.5rem;
+            }
+            svg{
+                height: 1.7rem;
+                width: 1.7rem;
+                margin: 0 1.2rem;
+            }
+        }   
+    }
+}
