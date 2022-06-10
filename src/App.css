@@ -7,6 +7,9 @@
 .swiper.mobile .swiper-wrapper {
   margin-bottom: 50px;
 }
+.swiper.mobile .swiper-pagination-bullet-active {
+  background-color: black;
+}
 
 .footer {
   width: 100%;
@@ -81,6 +84,11 @@
 }
 .CarouselCard.mobile .linksFooter {
   font-size: 3rem;
+}
+.CarouselCard.mobile .linksFooter svg {
+  height: 2.7rem;
+  width: 2.7rem;
+  margin: 0 2rem;
 }
 
 /*# sourceMappingURL=App.css.map */
