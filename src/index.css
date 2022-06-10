@@ -24,6 +24,12 @@ html {
   font-size: 62.5%; 
 }
 
+@media (max-width: 800px) {
+  html {
+    font-size: 10%; 
+  } 
+}
+
 @media (max-width: 2000px) {
   html {
     font-size: 50%; 
@@ -44,11 +50,7 @@ html {
     font-size: 20%; 
   } 
 }
-@media (max-width: 800px) {
-  html {
-    font-size: 10%; 
-  } 
-}
+
 
 
 body {

@@ -1,9 +1,9 @@
 import {ReactComponent as ChevronSmall} from '../assets/chevron-small.svg';
 
 
-export const CarouselCard = ({bodyType, imageUrl, modelName, modelType}) => {
+export const CarouselCard = ({bodyType, imageUrl, modelName, modelType, isMobile}) => {
     return(
-        <div className='CarouselCard'>
+        <div className={`CarouselCard ${isMobile ? 'mobile' : ''}`}>
             <div className='bodyType'>{bodyType}</div>
             <div className='model'>
                 <div className='modelName'>{modelName}</div>

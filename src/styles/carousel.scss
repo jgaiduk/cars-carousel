@@ -1,5 +1,13 @@
 .swiper{
     margin: 50px;
+    
+    &.mobile{
+        margin: 23px;
+        .swiper-wrapper{
+            margin-bottom: 50px;
+        }
+
+    }
 }
 
 .footer{

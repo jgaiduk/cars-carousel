@@ -1,6 +1,12 @@
 .swiper {
   margin: 50px;
 }
+.swiper.mobile {
+  margin: 23px;
+}
+.swiper.mobile .swiper-wrapper {
+  margin-bottom: 50px;
+}
 
 .footer {
   width: 100%;
@@ -62,6 +68,19 @@
   height: 1.7rem;
   width: 1.7rem;
   margin: 0 1.2rem;
+}
+.CarouselCard.mobile .bodyType {
+  font-size: 2.2rem;
+}
+.CarouselCard.mobile .model {
+  flex-direction: column;
+  font-size: 3rem;
+}
+.CarouselCard.mobile .modelName {
+  margin-bottom: 1rem;
+}
+.CarouselCard.mobile .linksFooter {
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=App.css.map */

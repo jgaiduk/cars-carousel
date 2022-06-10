@@ -51,4 +51,20 @@ $COLOR_BLUE: steelblue;
             }
         }   
     }
+
+    &.mobile{
+        .bodyType{
+            font-size: 2.2rem;
+        }
+        .model{
+            flex-direction: column;
+            font-size: 3rem;
+        }
+        .modelName{
+            margin-bottom: 1rem;
+        }
+        .linksFooter{
+            font-size: 3rem;
+        }
+    }
 }
